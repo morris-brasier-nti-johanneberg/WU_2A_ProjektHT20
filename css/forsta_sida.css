@@ -1,0 +1,37 @@
+.gridwrapper {
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 2,5fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    display: grid;
+    grid-template-areas: 
+    "he he he"
+    "na ma as"
+    "na se as"
+    "fo fo fo"
+    ;
+}
+
+header {
+    grid-area: he;
+}
+
+nav {
+    grid-area: na;
+}
+
+aside {
+    grid-area: as;
+}
+
+main {
+    grid-area: ma;
+}
+
+section {
+    grid-area: se;
+}
+
+footer {
+    grid-area: fo;
+}
