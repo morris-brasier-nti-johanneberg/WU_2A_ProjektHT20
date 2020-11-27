@@ -1,0 +1,85 @@
+.gridwrapper {
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 3,5fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 2fr 1fr;
+    display: grid;
+    grid-template-areas: 
+    "he he"
+    "na na"
+    "ma as"
+    "se as"
+    "fo fo"
+    ;
+}
+
+header {
+    grid-area: he;
+}
+
+nav {
+    grid-area: na;
+    background-color: grey;
+}
+
+aside {
+    grid-area: as;
+}
+
+main {
+    grid-area: ma;
+}
+
+section {
+    grid-area: se;
+}
+
+footer {
+    grid-area: fo;
+}
+
+.menu_wrapper {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns:2fr 2fr 2fr ;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    grid-template-areas: 
+    "he he he"
+    "na na na"
+    "no fl ky"
+    "fo fo fo"
+    ;
+}
+
+#not {
+    grid-area: no;
+}
+
+#flask {
+    grid-area: fl;
+}
+
+#kyckling {
+    grid-area: ky;
+}
+
+.meny_lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.oppettider {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 10px;
+}
+
+.menu_links {
+    text-decoration: none;
+    color: black;
+}
