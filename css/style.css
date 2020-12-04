@@ -83,3 +83,10 @@ footer {
     text-decoration: none;
     color: black;
 }
+
+#presentkort_pris {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
