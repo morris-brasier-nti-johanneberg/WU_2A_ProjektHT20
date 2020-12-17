@@ -80,6 +80,19 @@ footer {
 
 table {
     grid-area: ta;
+    border-collapse: separate;
+    border-spacing: 0 30px;
+}
+
+th, td {
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td {
+    border-right: hidden;
 }
 
 .meny_lista {
