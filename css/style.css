@@ -1,7 +1,9 @@
+
+
 .gridwrapper {
     width: 100vw;
     height: 100vh;
-    grid-template-columns: 3,5fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 150px 50px 2fr 2fr 100px;
     display: grid;
     grid-template-areas: 
@@ -15,27 +17,46 @@
 
 header {
     grid-area: he;
+    color: yellow;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid black;
+    margin: 2px;
+    display: flex;
+    justify-content: right space-between;
+    align-items: center;
 }
 
 nav {
     grid-area: na;
-    background-color: grey;
+    border: solid black;
+    margin: 2px;
 }
 
 aside {
     grid-area: as;
+    border: solid black;
+    margin: 2px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 main {
     grid-area: ma;
+    border: solid black;
+    margin: 2px;
 }
 
 section {
     grid-area: se;
+    border: solid black;
+    margin: 2px;
 }
 
 footer {
     grid-area: fo;
+    border: solid black;
+    margin: 2px;
 }
 
 .menu_wrapper {
@@ -111,13 +132,14 @@ th {
     display: flex;
     list-style-type: none;
     flex-direction: column;
-    justify-content: space-around;
-    border: 10px;
+    justify-content: space-evenly;
 }
 
 .menu_links {
     text-decoration: none;
-    color: black;
+    color:yellow;
+    cursor: pointer;
+
 }
 
 #presentkort_pris {
@@ -132,4 +154,15 @@ ol {
     justify-content: space-evenly;
     flex-direction: column;
     list-style-type: none;
+}
+
+.fo_ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+* {
+    background-color: burlywood;
 }
