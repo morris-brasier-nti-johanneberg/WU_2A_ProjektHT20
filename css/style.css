@@ -1,5 +1,5 @@
 * {
-    background-color: gray;
+    background-color: red;
 }
 
 .gridwrapper {
@@ -19,7 +19,7 @@
 
 header {
     grid-area: he;
-    color: white;
+    color: rgba(255, 255, 58, 0.815);
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: solid black;
@@ -42,21 +42,23 @@ aside {
     margin: 2px;
     display: flex;
     justify-content: space-evenly;
-    color: white;
+    color:rgba(255, 255, 58, 0.815);;
 }
 
 main {
     grid-area: ma;
     border: solid black;
     margin: 2px;
-    color: white;
+    padding: 5px;
+    color: rgba(255, 255, 58, 0.815);
 }
 
 section {
     grid-area: se;
     border: solid black;
     margin: 2px;
-    color: white;
+    padding: 5px;
+    color: rgba(255, 255, 58, 0.815);
 }
 
 footer {
@@ -78,6 +80,10 @@ footer {
     "no fl ky"
     "fo fo fo"
     ;
+}
+
+.mat_meny {
+    color: white;
 }
 
 #not {
@@ -183,6 +189,11 @@ ol {
     border: solid black;
 }
 
+.presentkort_img {
+    border: solid black;
+}
+
 p {
     padding: 5px;
+    color: white;
 }
